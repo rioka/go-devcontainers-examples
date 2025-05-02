@@ -38,8 +38,8 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 
   In this case, we're using an image based on Debian 12 (`bookwork`), which contains dotnet SDK v8.0, plus additional tools (i.e., `htop`, `less`, `sudo`, etc.)
 
-  > A list of tools installed in addition to .NET SDK is available in [GitHub](https://github.com/devcontainers/images/blob/main/src/go/history/dev.md)
+  > A list of tools installed, in addition to Go, is available in [GitHub](https://github.com/devcontainers/images/blob/main/src/go/history/dev.md)
 
 - `customization` is optional, and allows you to customize the development environment "per-tool" (e.g. vscode or IntelliJ): in this case, we want "Go" to be installed when using VS Code.
 
-Once we have `devcontainer.json`, we don't need anything else to start developing in C#; if we're using VS Code and "Dev Containers" extension installed ("ms-vscode-remote.remote-containers"), we can then open that folder in VS Code: since VS Code sees there's a `devcontainer.json`, it will offer to reopen the folder using DevContainers.
+Once we have `devcontainer.json`, we don't need anything else to start developing in Go; if we're using VS Code and "Dev Containers" extension installed ("ms-vscode-remote.remote-containers"), we can then open that folder in VS Code: since VS Code sees there's a `devcontainer.json`, it will offer to reopen the folder using DevContainers.
