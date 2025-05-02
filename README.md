@@ -19,7 +19,7 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 ```json
 {
   "name": "golang",
-  "image": "mcr.microsoft.com/devcontainers/go:1.23-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/go:1.4.1-1.24-bookworm",
 	"customizations": {
 		"vscode": {
 			"extensions": [
