@@ -43,3 +43,7 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 - `customization` is optional, and allows you to customize the development environment "per-tool" (e.g. vscode or IntelliJ): in this case, we want "Go" to be installed when using VS Code.
 
 Once we have `devcontainer.json`, we don't need anything else to start developing in Go; if we're using VS Code and "Dev Containers" extension installed ("ms-vscode-remote.remote-containers"), we can then open that folder in VS Code: since VS Code sees there's a `devcontainer.json`, it will offer to reopen the folder using DevContainers.
+
+## References
+
+- [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
