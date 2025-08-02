@@ -2,12 +2,12 @@
 
 This is a simple repository to experiment with devcontainers for Go
 
-In this case, I want to start from scratch, without relying on functions available via VSCode extension.
+In this case, I want to start from scratch, without relying on features available via VSCode extension.
 
 ## Steps
 
 - Create a repository
-- Add folder `.decontainer`
+- Add folder `.devcontainer`
 - Create `devcontainer.json` inside `.devcontainer`
 
   This file defines the container we will be using to developer an application: we do not need dotnet to be installed on the host machine.
@@ -20,13 +20,13 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 {
   "name": "golang",
   "image": "mcr.microsoft.com/devcontainers/go:1.4.1-1.24-bookworm",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"golang.go"
-			]
-		}
-	}
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
 }
 ```
 
