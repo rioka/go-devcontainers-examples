@@ -36,7 +36,7 @@ Our `devcontainer.json` contains is very minimal, and makes sense just for this 
 
 - `image` identifies the image the devcontainer will be created from.
 
-  In this case, we're using an image based on Debian 12 (`bookwork`), which contains dotnet SDK v8.0, plus additional tools (i.e., `htop`, `less`, `sudo`, etc.)
+  In this case, we're using an image based on Debian 12 (`bookwork`), which contains "Go" tooling, plus additional tools (i.e., `htop`, `less`, `sudo`, etc.)
 
   > A list of tools installed, in addition to Go, is available in [GitHub](https://github.com/devcontainers/images/blob/main/src/go/history/dev.md)
 
